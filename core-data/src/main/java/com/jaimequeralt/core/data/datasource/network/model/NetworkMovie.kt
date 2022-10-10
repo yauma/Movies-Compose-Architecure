@@ -8,8 +8,8 @@ import kotlinx.serialization.Serializable
 @JsonClass(generateAdapter = true)
 data class NetworkMovie(
     @field:Json(name = "id") val id: Int,
-    @field:Json(name = "originalTitle") val originalTitle: String? = "",
-    @field:Json(name = "posterPath") val posterPath: String?
+    @field:Json(name = "original_title") val originalTitle: String? = "",
+    @field:Json(name = "poster_path") val posterPath: String?
 )
 
 fun NetworkMovie.asEntity(): MovieEntity = MovieEntity(
