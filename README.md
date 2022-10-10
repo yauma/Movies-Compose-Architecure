@@ -3,7 +3,7 @@ App built using jetpack compose with Android recommended Architecture and latest
 Room (SQL Database)
 
 ## Architecture
-The App follows the official architecture guided by Google
+The App follows the official architecture guided by [Google](https://developer.android.com/topic/architecture)
 
 <img src="https://user-images.githubusercontent.com/10743855/194925920-a3da4328-9f22-4c6f-88dd-68a970430f9a.png" width="250" />
 
