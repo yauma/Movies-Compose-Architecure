@@ -2,11 +2,17 @@
 App built using jetpack compose with Android recommended Architecture and latest Android Development libraries such as: Dagger (Dependency Injection)
 Room (SQL Database)
 
+### API keys
+You need to supply API / client keys for the various services the app uses:
+
+[TMDB](https://www.themoviedb.org/documentation/api?language=es-ES)
+
+Once you obtain the keys, you can set them in your ~/.gradle/gradle.properties:
+
 ## Architecture
 The App follows the official architecture guided by [Google](https://developer.android.com/topic/architecture)
 
 <img src="https://user-images.githubusercontent.com/10743855/194925920-a3da4328-9f22-4c6f-88dd-68a970430f9a.png" width="250" />
-
 
 The architecture follows a reactive programming model with unidirectional data flow. With the data layer at the bottom, the key concepts are:
 
