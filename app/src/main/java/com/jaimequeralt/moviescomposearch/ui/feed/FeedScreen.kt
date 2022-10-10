@@ -14,7 +14,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import coil.ImageLoader
 import coil.compose.rememberAsyncImagePainter
 import com.example.moviescomposearch.R
 import com.google.accompanist.pager.ExperimentalPagerApi
